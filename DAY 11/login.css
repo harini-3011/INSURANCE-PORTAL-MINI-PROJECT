@@ -1,0 +1,59 @@
+.logmain {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url("https://images.unsplash.com/photo-1607863680198-23d4b2565df0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NjJ8fG1vbmV5fGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .login {
+    background-color: #f2f2f2;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    margin-right: 800px;
+    width:300px
+
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color:goldenrod;
+   
+   }
+  
+  label {
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  input {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    width: 250px;
+  }
+  
+  .logbut {
+    background-color:#32a8a4;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  
+  
+  .register-link {
+    text-decoration: none;
+    color: #007bff;
+    margin-top: 10px;
+    font-size: 14px;
+  }
